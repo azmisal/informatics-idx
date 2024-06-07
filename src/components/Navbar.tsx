@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./Navbar.module.css";
 import Logo from "../Assets/logo.png";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -12,7 +13,9 @@ const Navbar = () => {
                 </div>
                 <div className={styles.navLinks}>
                     <a href="#" className={styles.link}>HOME</a>
-                    <a href="#" className={styles.link}>ABOUT</a>
+                    <Link href="/about" passHref>
+                        <a className={styles.link}>ABOUT</a>
+                    </Link>
                     <a href="#" className={styles.link}>ACADEMICS</a>
                     <a href="#" className={styles.link}>PEOPLE</a>
                     <a href="#" className={styles.link}>STUDENTS</a>
