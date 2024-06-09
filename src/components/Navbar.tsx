@@ -17,7 +17,7 @@ const Navbar = () => {
                         <a className={styles.link}>ABOUT</a>
                     </Link>
                     <Link href="/contact" passHref legacyBehavior>
-                        <a className={styles.link}>Contact</a>
+                        <a className={styles.link}>CONTACT</a>
                     </Link>
                     <a href="#" className={styles.link}>ACADEMICS</a>
                     <a href="#" className={styles.link}>PEOPLE</a>
