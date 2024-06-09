@@ -1,0 +1,56 @@
+.home{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #111111;
+    padding-bottom: 50vh;
+    align-items: center;
+}
+.name{
+ border-radius: 60px;
+ width: 90%;
+ height: 70vh;
+ background-color: rgba(16, 58, 57, 0.2);
+ display: flex;
+ align-items: center;
+ overflow: hidden;
+ 
+}
+
+.Symbol{
+ height: 90%;
+ margin-left: 2%;
+}
+.welcomeText{
+text-align: left;
+margin-left: 5%;
+}
+.nameh1,.nameh2,.nameh3{
+ color: #48B9AB;
+ font-size: 40px;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 700;
+ text-transform: uppercase;
+ margin-bottom: 25px;
+}
+.nameh1{
+font-weight: 400;
+
+}
+.nameh3{
+font-size: 25px;
+font-weight: 600;
+
+
+}
+
+
+.carousel{
+ margin-top: 30px;
+ width: 80%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
