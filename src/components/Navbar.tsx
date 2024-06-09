@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./Navbar.module.css";
+import styles from "@/Styles/Navbar.module.css";
 import Logo from "../Assets/logo.png";
 import Image from 'next/image';
 import Link from 'next/link';
@@ -13,8 +13,11 @@ const Navbar = () => {
                 </div>
                 <div className={styles.navLinks}>
                     <a href="#" className={styles.link}>HOME</a>
-                    <Link href="/about" passHref>
+                    <Link href="/about" passHref legacyBehavior>
                         <a className={styles.link}>ABOUT</a>
+                    </Link>
+                    <Link href="/contact" passHref legacyBehavior>
+                        <a className={styles.link}>Contact</a>
                     </Link>
                     <a href="#" className={styles.link}>ACADEMICS</a>
                     <a href="#" className={styles.link}>PEOPLE</a>

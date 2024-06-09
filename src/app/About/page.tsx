@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "./About.module.css";
-const About = () => {
+import styles from "@/Styles/About.module.css";
+export default function About(){
     return (
         <div className={styles.about}>
             <div className={styles.innerPage}>
@@ -19,7 +19,5 @@ const About = () => {
 
         </div>
 
-    )
-}
-
-export default About
+    );
+};
