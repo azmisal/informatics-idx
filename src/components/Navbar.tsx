@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./Navbar.module.css";
+import styles from "@/Styles/Navbar.module.css";
 import Logo from "../Assets/logo.png";
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,18 +9,33 @@ const Navbar = () => {
         <div className={styles.navbar}>
             <div className={styles.innerBar}>
                 <div className={styles.logo}>
-                    <Image src={Logo} alt="" className={styles.logoImg} />
+                    <Image src={Logo} alt="Logo" className={styles.logoImg} />
                 </div>
                 <div className={styles.navLinks}>
-                    <a href="#" className={styles.link}>HOME</a>
+                    <Link href="/" passHref legacyBehavior>
+                        <a className={styles.link}>HOME</a>
+                    </Link>
                     <Link href="/about" passHref legacyBehavior>
                         <a className={styles.link}>ABOUT</a>
                     </Link>
-                    <a href="#" className={styles.link}>ACADEMICS</a>
-                    <a href="#" className={styles.link}>PEOPLE</a>
-                    <a href="#" className={styles.link}>STUDENTS</a>
-                    <a href="#" className={styles.link}>RESEARCH</a>
-                    <a href="#" className={styles.link}>GALLERY</a>
+                    <Link href="/contact" passHref legacyBehavior>
+                        <a className={styles.link}>CONTACT</a>
+                    </Link>
+                    <Link href="/academics" passHref legacyBehavior>
+                        <a className={styles.link}>ACADEMICS</a>
+                    </Link>
+                    <Link href="/people" passHref legacyBehavior>
+                        <a className={styles.link}>PEOPLE</a>
+                    </Link>
+                    <Link href="/students" passHref legacyBehavior>
+                        <a className={styles.link}>STUDENTS</a>
+                    </Link>
+                    <Link href="/research" passHref legacyBehavior>
+                        <a className={styles.link}>RESEARCH</a>
+                    </Link>
+                    <Link href="/gallery" passHref legacyBehavior>
+                        <a className={styles.link}>GALLERY</a>
+                    </Link>
                 </div>
             </div>
         </div>

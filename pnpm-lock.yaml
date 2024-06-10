@@ -2163,7 +2163,11 @@ packages:
     dependencies:
       lilconfig: 3.1.1
       postcss: 8.4.38
+<<<<<<< HEAD
       yaml: 2.4.3
+=======
+      yaml: 2.4.5
+>>>>>>> 203d72ad97bc434d3f586f119b8bf0862daa42ee
     dev: true
 
   /postcss-nested@6.0.1(postcss@8.4.38):
@@ -2844,8 +2848,13 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
+<<<<<<< HEAD
   /yaml@2.4.3:
     resolution: {integrity: sha512-sntgmxj8o7DE7g/Qi60cqpLBA3HG3STcDA0kO+WfB05jEKhZMbY7umNm2rBpQvsmZ16/lPXCJGW2672dgOUkrg==}
+=======
+  /yaml@2.4.5:
+    resolution: {integrity: sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==}
+>>>>>>> 203d72ad97bc434d3f586f119b8bf0862daa42ee
     engines: {node: '>= 14'}
     hasBin: true
     dev: true
