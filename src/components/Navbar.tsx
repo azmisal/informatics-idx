@@ -13,7 +13,7 @@ const Navbar = () => {
                 </div>
                 <div className={styles.navLinks}>
                     <a href="#" className={styles.link}>HOME</a>
-                    <Link href="/about" passHref>
+                    <Link href="/about" passHref legacyBehavior>
                         <a className={styles.link}>ABOUT</a>
                     </Link>
                     <a href="#" className={styles.link}>ACADEMICS</a>
